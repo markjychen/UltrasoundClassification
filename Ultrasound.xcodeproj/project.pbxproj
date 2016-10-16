@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D05A7BE1DB43B2B0028818B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D05A7BD1DB43B2B0028818B /* ResultsViewController.swift */; };
 		4DAA65401DA0D4B2004D20F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA653F1DA0D4B2004D20F2 /* AppDelegate.swift */; };
 		4DAA65421DA0D4B2004D20F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA65411DA0D4B2004D20F2 /* ViewController.swift */; };
 		4DAA65451DA0D4B2004D20F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAA65431DA0D4B2004D20F2 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D05A7BD1DB43B2B0028818B /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultsViewController.swift; path = ../../../Mark/Development/UltrasoundClassification/Ultrasound/ResultsViewController.swift; sourceTree = "<group>"; };
 		4DAA653C1DA0D4B2004D20F2 /* Ultrasound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ultrasound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAA653F1DA0D4B2004D20F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DAA65411DA0D4B2004D20F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		4DAA65331DA0D4B2004D20F2 = {
 			isa = PBXGroup;
 			children = (
+				4D05A7BD1DB43B2B0028818B /* ResultsViewController.swift */,
 				4DAA653E1DA0D4B2004D20F2 /* Ultrasound */,
 				4DAA653D1DA0D4B2004D20F2 /* Products */,
 			);
@@ -150,6 +153,7 @@
 			files = (
 				4DAA65421DA0D4B2004D20F2 /* ViewController.swift in Sources */,
 				4DAA65401DA0D4B2004D20F2 /* AppDelegate.swift in Sources */,
+				4D05A7BE1DB43B2B0028818B /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +315,7 @@
 				4DAA65501DA0D4B2004D20F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
