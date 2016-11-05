@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D6111BB1DC7A32500CF9FF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6111BA1DC7A32500CF9FF3 /* AppDelegate.swift */; };
+		4D6111BD1DC7A32500CF9FF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6111BC1DC7A32500CF9FF3 /* ViewController.swift */; };
+		4D6111C01DC7A32500CF9FF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6111BE1DC7A32500CF9FF3 /* Main.storyboard */; };
+		4D6111C21DC7A32500CF9FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6111C11DC7A32500CF9FF3 /* Assets.xcassets */; };
+		4D6111C51DC7A32500CF9FF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6111C31DC7A32500CF9FF3 /* LaunchScreen.storyboard */; };
+		4D6111D01DC7A32500CF9FF3 /* UltrasoundClassificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6111CF1DC7A32500CF9FF3 /* UltrasoundClassificationTests.swift */; };
+		4D6111DB1DC7A32500CF9FF3 /* UltrasoundClassificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6111DA1DC7A32500CF9FF3 /* UltrasoundClassificationUITests.swift */; };
+		4D6111E91DC7A37B00CF9FF3 /* ProfileSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6111E81DC7A37B00CF9FF3 /* ProfileSelectionViewController.swift */; };
+		4D6111EB1DC7A40F00CF9FF3 /* MakeNewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6111EA1DC7A40F00CF9FF3 /* MakeNewProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6111CC1DC7A32500CF9FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6111AF1DC7A32500CF9FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6111B61DC7A32500CF9FF3;
+			remoteInfo = UltrasoundClassification;
+		};
+		4D6111D71DC7A32500CF9FF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6111AF1DC7A32500CF9FF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6111B61DC7A32500CF9FF3;
+			remoteInfo = UltrasoundClassification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D6111B71DC7A32500CF9FF3 /* UltrasoundClassification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltrasoundClassification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6111BA1DC7A32500CF9FF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D6111BC1DC7A32500CF9FF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D6111BF1DC7A32500CF9FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D6111C11DC7A32500CF9FF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D6111C41DC7A32500CF9FF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D6111C61DC7A32500CF9FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6111CB1DC7A32500CF9FF3 /* UltrasoundClassificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltrasoundClassificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6111CF1DC7A32500CF9FF3 /* UltrasoundClassificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltrasoundClassificationTests.swift; sourceTree = "<group>"; };
+		4D6111D11DC7A32500CF9FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6111D61DC7A32500CF9FF3 /* UltrasoundClassificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltrasoundClassificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6111DA1DC7A32500CF9FF3 /* UltrasoundClassificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltrasoundClassificationUITests.swift; sourceTree = "<group>"; };
+		4D6111DC1DC7A32500CF9FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D6111E81DC7A37B00CF9FF3 /* ProfileSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSelectionViewController.swift; sourceTree = "<group>"; };
+		4D6111EA1DC7A40F00CF9FF3 /* MakeNewProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeNewProfileViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D6111B41DC7A32500CF9FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6111C81DC7A32500CF9FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6111D31DC7A32500CF9FF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D6111AE1DC7A32500CF9FF3 = {
+			isa = PBXGroup;
+			children = (
+				4D6111B91DC7A32500CF9FF3 /* UltrasoundClassification */,
+				4D6111CE1DC7A32500CF9FF3 /* UltrasoundClassificationTests */,
+				4D6111D91DC7A32500CF9FF3 /* UltrasoundClassificationUITests */,
+				4D6111B81DC7A32500CF9FF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D6111B81DC7A32500CF9FF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6111B71DC7A32500CF9FF3 /* UltrasoundClassification.app */,
+				4D6111CB1DC7A32500CF9FF3 /* UltrasoundClassificationTests.xctest */,
+				4D6111D61DC7A32500CF9FF3 /* UltrasoundClassificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6111B91DC7A32500CF9FF3 /* UltrasoundClassification */ = {
+			isa = PBXGroup;
+			children = (
+				4D6111BA1DC7A32500CF9FF3 /* AppDelegate.swift */,
+				4D6111BC1DC7A32500CF9FF3 /* ViewController.swift */,
+				4D6111BE1DC7A32500CF9FF3 /* Main.storyboard */,
+				4D6111E81DC7A37B00CF9FF3 /* ProfileSelectionViewController.swift */,
+				4D6111EA1DC7A40F00CF9FF3 /* MakeNewProfileViewController.swift */,
+				4D6111C11DC7A32500CF9FF3 /* Assets.xcassets */,
+				4D6111C31DC7A32500CF9FF3 /* LaunchScreen.storyboard */,
+				4D6111C61DC7A32500CF9FF3 /* Info.plist */,
+			);
+			path = UltrasoundClassification;
+			sourceTree = "<group>";
+		};
+		4D6111CE1DC7A32500CF9FF3 /* UltrasoundClassificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6111CF1DC7A32500CF9FF3 /* UltrasoundClassificationTests.swift */,
+				4D6111D11DC7A32500CF9FF3 /* Info.plist */,
+			);
+			path = UltrasoundClassificationTests;
+			sourceTree = "<group>";
+		};
+		4D6111D91DC7A32500CF9FF3 /* UltrasoundClassificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6111DA1DC7A32500CF9FF3 /* UltrasoundClassificationUITests.swift */,
+				4D6111DC1DC7A32500CF9FF3 /* Info.plist */,
+			);
+			path = UltrasoundClassificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6111B61DC7A32500CF9FF3 /* UltrasoundClassification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6111DF1DC7A32500CF9FF3 /* Build configuration list for PBXNativeTarget "UltrasoundClassification" */;
+			buildPhases = (
+				4D6111B31DC7A32500CF9FF3 /* Sources */,
+				4D6111B41DC7A32500CF9FF3 /* Frameworks */,
+				4D6111B51DC7A32500CF9FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltrasoundClassification;
+			productName = UltrasoundClassification;
+			productReference = 4D6111B71DC7A32500CF9FF3 /* UltrasoundClassification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6111CA1DC7A32500CF9FF3 /* UltrasoundClassificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6111E21DC7A32500CF9FF3 /* Build configuration list for PBXNativeTarget "UltrasoundClassificationTests" */;
+			buildPhases = (
+				4D6111C71DC7A32500CF9FF3 /* Sources */,
+				4D6111C81DC7A32500CF9FF3 /* Frameworks */,
+				4D6111C91DC7A32500CF9FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6111CD1DC7A32500CF9FF3 /* PBXTargetDependency */,
+			);
+			name = UltrasoundClassificationTests;
+			productName = UltrasoundClassificationTests;
+			productReference = 4D6111CB1DC7A32500CF9FF3 /* UltrasoundClassificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D6111D51DC7A32500CF9FF3 /* UltrasoundClassificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6111E51DC7A32500CF9FF3 /* Build configuration list for PBXNativeTarget "UltrasoundClassificationUITests" */;
+			buildPhases = (
+				4D6111D21DC7A32500CF9FF3 /* Sources */,
+				4D6111D31DC7A32500CF9FF3 /* Frameworks */,
+				4D6111D41DC7A32500CF9FF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6111D81DC7A32500CF9FF3 /* PBXTargetDependency */,
+			);
+			name = UltrasoundClassificationUITests;
+			productName = UltrasoundClassificationUITests;
+			productReference = 4D6111D61DC7A32500CF9FF3 /* UltrasoundClassificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D6111AF1DC7A32500CF9FF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Mark Chen";
+				TargetAttributes = {
+					4D6111B61DC7A32500CF9FF3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NZWJQ95XS9;
+						ProvisioningStyle = Automatic;
+					};
+					4D6111CA1DC7A32500CF9FF3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NZWJQ95XS9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D6111B61DC7A32500CF9FF3;
+					};
+					4D6111D51DC7A32500CF9FF3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NZWJQ95XS9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D6111B61DC7A32500CF9FF3;
+					};
+				};
+			};
+			buildConfigurationList = 4D6111B21DC7A32500CF9FF3 /* Build configuration list for PBXProject "UltrasoundClassification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D6111AE1DC7A32500CF9FF3;
+			productRefGroup = 4D6111B81DC7A32500CF9FF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6111B61DC7A32500CF9FF3 /* UltrasoundClassification */,
+				4D6111CA1DC7A32500CF9FF3 /* UltrasoundClassificationTests */,
+				4D6111D51DC7A32500CF9FF3 /* UltrasoundClassificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D6111B51DC7A32500CF9FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6111C51DC7A32500CF9FF3 /* LaunchScreen.storyboard in Resources */,
+				4D6111C21DC7A32500CF9FF3 /* Assets.xcassets in Resources */,
+				4D6111C01DC7A32500CF9FF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6111C91DC7A32500CF9FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6111D41DC7A32500CF9FF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6111B31DC7A32500CF9FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6111BD1DC7A32500CF9FF3 /* ViewController.swift in Sources */,
+				4D6111EB1DC7A40F00CF9FF3 /* MakeNewProfileViewController.swift in Sources */,
+				4D6111E91DC7A37B00CF9FF3 /* ProfileSelectionViewController.swift in Sources */,
+				4D6111BB1DC7A32500CF9FF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6111C71DC7A32500CF9FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6111D01DC7A32500CF9FF3 /* UltrasoundClassificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6111D21DC7A32500CF9FF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6111DB1DC7A32500CF9FF3 /* UltrasoundClassificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D6111CD1DC7A32500CF9FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6111B61DC7A32500CF9FF3 /* UltrasoundClassification */;
+			targetProxy = 4D6111CC1DC7A32500CF9FF3 /* PBXContainerItemProxy */;
+		};
+		4D6111D81DC7A32500CF9FF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6111B61DC7A32500CF9FF3 /* UltrasoundClassification */;
+			targetProxy = 4D6111D71DC7A32500CF9FF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D6111BE1DC7A32500CF9FF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6111BF1DC7A32500CF9FF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6111C31DC7A32500CF9FF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6111C41DC7A32500CF9FF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D6111DD1DC7A32500CF9FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D6111DE1DC7A32500CF9FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D6111E01DC7A32500CF9FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NZWJQ95XS9;
+				INFOPLIST_FILE = UltrasoundClassification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-University.UltrasoundClassification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4D6111E11DC7A32500CF9FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NZWJQ95XS9;
+				INFOPLIST_FILE = UltrasoundClassification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-University.UltrasoundClassification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4D6111E31DC7A32500CF9FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NZWJQ95XS9;
+				INFOPLIST_FILE = UltrasoundClassificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-University.UltrasoundClassificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltrasoundClassification.app/UltrasoundClassification";
+			};
+			name = Debug;
+		};
+		4D6111E41DC7A32500CF9FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NZWJQ95XS9;
+				INFOPLIST_FILE = UltrasoundClassificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-University.UltrasoundClassificationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UltrasoundClassification.app/UltrasoundClassification";
+			};
+			name = Release;
+		};
+		4D6111E61DC7A32500CF9FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NZWJQ95XS9;
+				INFOPLIST_FILE = UltrasoundClassificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-University.UltrasoundClassificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UltrasoundClassification;
+			};
+			name = Debug;
+		};
+		4D6111E71DC7A32500CF9FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = NZWJQ95XS9;
+				INFOPLIST_FILE = UltrasoundClassificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Duke-University.UltrasoundClassificationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UltrasoundClassification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6111B21DC7A32500CF9FF3 /* Build configuration list for PBXProject "UltrasoundClassification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6111DD1DC7A32500CF9FF3 /* Debug */,
+				4D6111DE1DC7A32500CF9FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6111DF1DC7A32500CF9FF3 /* Build configuration list for PBXNativeTarget "UltrasoundClassification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6111E01DC7A32500CF9FF3 /* Debug */,
+				4D6111E11DC7A32500CF9FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D6111E21DC7A32500CF9FF3 /* Build configuration list for PBXNativeTarget "UltrasoundClassificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6111E31DC7A32500CF9FF3 /* Debug */,
+				4D6111E41DC7A32500CF9FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D6111E51DC7A32500CF9FF3 /* Build configuration list for PBXNativeTarget "UltrasoundClassificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6111E61DC7A32500CF9FF3 /* Debug */,
+				4D6111E71DC7A32500CF9FF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D6111AF1DC7A32500CF9FF3 /* Project object */;
+}

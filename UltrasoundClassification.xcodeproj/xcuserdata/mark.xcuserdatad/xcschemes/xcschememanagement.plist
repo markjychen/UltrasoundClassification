@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Ultrasound.xcscheme</key>
+		<key>UltrasoundClassification.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4DAA653B1DA0D4B2004D20F2</key>
+		<key>4D6111B61DC7A32500CF9FF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D6111CA1DC7A32500CF9FF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D6111D51DC7A32500CF9FF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

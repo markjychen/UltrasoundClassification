@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Ultrasound
+//  UltrasoundClassification
 //
-//  Created by Mark C on 10/2/16.
-//  Copyright © 2016 Duke University. All rights reserved.
+//  Created by Mark Chen on 10/31/16.
+//  Copyright © 2016 Mark Chen. All rights reserved.
 //
 
 import UIKit

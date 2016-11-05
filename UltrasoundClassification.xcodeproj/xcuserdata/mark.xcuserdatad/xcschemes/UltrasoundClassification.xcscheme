@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DAA653B1DA0D4B2004D20F2"
-               BuildableName = "Ultrasound.app"
-               BlueprintName = "Ultrasound"
-               ReferencedContainer = "container:Ultrasound.xcodeproj">
+               BlueprintIdentifier = "4D6111B61DC7A32500CF9FF3"
+               BuildableName = "UltrasoundClassification.app"
+               BlueprintName = "UltrasoundClassification"
+               ReferencedContainer = "container:UltrasoundClassification.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,34 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D6111CA1DC7A32500CF9FF3"
+               BuildableName = "UltrasoundClassificationTests.xctest"
+               BlueprintName = "UltrasoundClassificationTests"
+               ReferencedContainer = "container:UltrasoundClassification.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4D6111D51DC7A32500CF9FF3"
+               BuildableName = "UltrasoundClassificationUITests.xctest"
+               BlueprintName = "UltrasoundClassificationUITests"
+               ReferencedContainer = "container:UltrasoundClassification.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DAA653B1DA0D4B2004D20F2"
-            BuildableName = "Ultrasound.app"
-            BlueprintName = "Ultrasound"
-            ReferencedContainer = "container:Ultrasound.xcodeproj">
+            BlueprintIdentifier = "4D6111B61DC7A32500CF9FF3"
+            BuildableName = "UltrasoundClassification.app"
+            BlueprintName = "UltrasoundClassification"
+            ReferencedContainer = "container:UltrasoundClassification.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DAA653B1DA0D4B2004D20F2"
-            BuildableName = "Ultrasound.app"
-            BlueprintName = "Ultrasound"
-            ReferencedContainer = "container:Ultrasound.xcodeproj">
+            BlueprintIdentifier = "4D6111B61DC7A32500CF9FF3"
+            BuildableName = "UltrasoundClassification.app"
+            BlueprintName = "UltrasoundClassification"
+            ReferencedContainer = "container:UltrasoundClassification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DAA653B1DA0D4B2004D20F2"
-            BuildableName = "Ultrasound.app"
-            BlueprintName = "Ultrasound"
-            ReferencedContainer = "container:Ultrasound.xcodeproj">
+            BlueprintIdentifier = "4D6111B61DC7A32500CF9FF3"
+            BuildableName = "UltrasoundClassification.app"
+            BlueprintName = "UltrasoundClassification"
+            ReferencedContainer = "container:UltrasoundClassification.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
