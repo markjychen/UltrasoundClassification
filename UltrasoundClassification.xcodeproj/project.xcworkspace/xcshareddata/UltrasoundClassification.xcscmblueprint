@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6699A53C76090F1770BF4CB41D4228A65F58D449",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F65A476A58933AE6B22EAE730A194955F98FC66" : 9223372036854775807,
+    "6699A53C76090F1770BF4CB41D4228A65F58D449" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1EFA9DE9-DAC3-4454-B83F-237FF0BE5CAB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F65A476A58933AE6B22EAE730A194955F98FC66" : "Ultrasound\/Surge\/",
+    "6699A53C76090F1770BF4CB41D4228A65F58D449" : "Ultrasound\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UltrasoundClassification",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UltrasoundClassification.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mjy62004\/UltrasoundClassification.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6699A53C76090F1770BF4CB41D4228A65F58D449"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mattt\/Surge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F65A476A58933AE6B22EAE730A194955F98FC66"
+    }
+  ]
+}
